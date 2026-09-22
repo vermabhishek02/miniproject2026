@@ -11,8 +11,9 @@ import { FarmerDashboard } from "@/components/views/farmer-dashboard"
 import { TransporterDashboard } from "@/components/views/transporter-dashboard"
 import { AnalyticsView } from "@/components/views/analytics-view"
 import { StorageView } from "@/components/views/storage-view"
+import { AdminLogin } from "@/components/views/admin-login"
 
-export type View = "home" | "farmer" | "transport" | "analytics" | "storage"
+export type View = "home" | "farmer" | "transport" | "analytics" | "storage" | "admin"
 
 function Shell() {
   const [view, setView] = useState<View>("home")

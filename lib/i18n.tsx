@@ -94,7 +94,7 @@ const dict: Dict = {
   update_status: { en: "Update Status", hi: "स्थिति अपडेट करें" },
   st_requested: { en: "Requested", hi: "अनुरोधित" },
   st_enroute: { en: "En Route", hi: "रास्ते में" },
-  st_loaded: { en: "Loaded", hi: "लोड किया गया" },
+  st_loaded: { en: "Loaded", hi: "लोड किया गय���" },
   st_delivered: { en: "Delivered", hi: "पहुंचा दिया" },
   farmer_label: { en: "Farmer", hi: "किसान" },
   earnings_today: { en: "Earnings Today", hi: "आज की कमाई" },
@@ -130,6 +130,28 @@ const dict: Dict = {
   login_otp_sent: { en: "OTP sent to your mobile", hi: "आपके मोबाइल पर OTP भेजा गया" },
   login_verify: { en: "Verify & Continue", hi: "सत्यापित करें और आगे बढ़ें" },
   login_demo_note: { en: "Demo mode — no real OTP is sent.", hi: "डेमो मोड — कोई वास्तविक OTP नहीं भेजा जाता।" },
+
+  // Admin
+  admin_login: { en: "Admin Login", hi: "एडमिन लॉगिन" },
+  admin_portal: { en: "Admin Portal", hi: "एडमिन पोर्टल" },
+  admin_sub: { en: "Sign in to manage mandis, users and logistics.", hi: "मंडियों, उपयोगकर्ताओं और परिवहन को प्रबंधित करने के लिए साइन इन करें।" },
+  admin_email: { en: "Email Address", hi: "ईमेल पता" },
+  admin_password: { en: "Password", hi: "पासवर्ड" },
+  admin_signin: { en: "Sign In", hi: "साइन इन करें" },
+  admin_remember: { en: "Keep me signed in", hi: "मुझे साइन इन रखें" },
+  admin_forgot: { en: "Forgot password?", hi: "पासवर्ड भूल गए?" },
+  admin_invalid: { en: "Invalid email or password.", hi: "अमान्य ईमेल या पासवर्ड।" },
+  admin_demo_note: { en: "Demo: admin@khetimandi.in / admin123", hi: "डेमो: admin@khetimandi.in / admin123" },
+  admin_secure: { en: "Secured admin access", hi: "सुरक्षित एडमिन पहुंच" },
+  admin_back: { en: "Back to site", hi: "साइट पर वापस जाएं" },
+  admin_welcome: { en: "Admin Dashboard", hi: "एडमिन डैशबोर्ड" },
+  admin_signout: { en: "Sign Out", hi: "साइन आउट" },
+  admin_stat_farmers: { en: "Registered Farmers", hi: "पंजीकृत किसान" },
+  admin_stat_transporters: { en: "Active Transporters", hi: "सक्रिय ट्रांसपोर्टर" },
+  admin_stat_listings: { en: "Live Crop Listings", hi: "लाइव फसल सूची" },
+  admin_stat_mandis: { en: "Connected Mandis", hi: "जुड़ी मंडियां" },
+  admin_recent: { en: "Recent Activity", hi: "हाल की गतिविधि" },
+  footer_admin: { en: "Admin", hi: "एडमिन" },
 }
 
 interface I18nContextValue {
